@@ -1,6 +1,6 @@
 # dairy-milk-distributor-api-nodejs
 
-A RESTful API for Dairy milk distributor to manage record of the milk distribution.
+A RESTful API for Dairy milk distributors to manage records of the milk distribution.
 
 ## Features
 
@@ -8,7 +8,7 @@ A RESTful API for Dairy milk distributor to manage record of the milk distributi
 - Update Order
 - Update Order Status
 - Delete Order
-- Check Today Left Milk Capacity
+- Check Today's Left Milk Capacity
 - Get All Orders
 
 ## Usage
@@ -59,7 +59,6 @@ A RESTful API for Dairy milk distributor to manage record of the milk distributi
 [<img align="left" alt="nixrajput | Twitter" width="24px" src="https://raw.githubusercontent.com/nixrajput/nixlab-files/master/images/icons/twitter-brands.svg" />][twitter]
 
 [<img align="left" alt="nixrajput | LinkedIn" width="24px" src="https://raw.githubusercontent.com/nixrajput/nixlab-files/master/images/icons/linkedin-in-brands.svg" />][linkedin]
-
 
 [github]: https://github.com/nixrajput
 [website]: https://nixlab.co.in
