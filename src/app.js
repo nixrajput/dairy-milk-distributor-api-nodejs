@@ -25,10 +25,7 @@ export const runApp = () => {
   app.use(express.json({ limit: "50mb" }));
 
   app.route("/").get((req, res) => {
-    res.status(200).json({
-      success: true,
-      message: "Server is up and running...",
-    });
+    res.sendFile(process.cwd() + "/index.html");
   });
 
   //   CREATE ORDER
