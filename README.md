@@ -25,8 +25,8 @@ A RESTful API for Dairy milk distributor to manage record of the milk distributi
         npm install
     ```
 
-- Create `dev.env` file for development
-- Add following VARIABLES in `dev.env`
+- Create `dev.env` file in `src` folder
+- Add following VARIABLES in `dev.env` or in production Environment Variables
   
     ```env
         PORT = YOUR PORT
@@ -44,7 +44,7 @@ A RESTful API for Dairy milk distributor to manage record of the milk distributi
 
 ## Documentation
 
-[Link](https://app.swaggerhub.com/apis/nixrajput-apis/dairy-milk-api/1.0.0)
+[Link](https://app.swaggerhub.com/apis-docs/nixrajput-apis/dairy-milk-api/1.0.0)
 
 ## Connect With Me
 
