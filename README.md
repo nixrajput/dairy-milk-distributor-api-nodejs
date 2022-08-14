@@ -13,18 +13,34 @@ A RESTful API for Dairy milk distributor to manage record of the milk distributi
 
 ## Usage
 
-- Create a Node.js project
+- Clone the repository
+  
+    ```bash
+        git clone https://github.com/nixrajput/dairy-milk-distributor-api-nodejs.git
+    ```
+
 - Install required modules
+  
+    ```bash
+        npm install
+    ```
+
 - Create `dev.env` file for development
 - Add following VARIABLES in `dev.env`
   
-  ```env
-    PORT = YOUR PORT
+    ```env
+        PORT = YOUR PORT
 
-    MONGO_URI = YOUR MONGODB URI
+        MONGO_URI = YOUR MONGODB URI
 
-    DB_NAME = YOUR MONGODB DATABASE NAME
-  ```
+        DB_NAME = YOUR MONGODB DATABASE NAME
+    ```
+
+- Run the server
+
+    ```bash
+        npm run dev
+    ```
 
 ## Documentation
 
