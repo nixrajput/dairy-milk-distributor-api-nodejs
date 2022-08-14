@@ -144,7 +144,7 @@ export const runApp = () => {
     })
   );
 
-  // GET CAPACITY
+  // CHECK CAPACITY
   app.route("/checkCapacity/:date").get(
     catchAsyncError(async (req, res, next) => {
       const { date } = req.params;

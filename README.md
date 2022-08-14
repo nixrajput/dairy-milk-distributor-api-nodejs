@@ -1,6 +1,6 @@
 # dairy-milk-distributor-api-nodejs
 
-A RESTful API for Dairy milk distributor to manage the milk distribution.
+A RESTful API for Dairy milk distributor to manage record of the milk distribution.
 
 ## Features
 
@@ -11,9 +11,24 @@ A RESTful API for Dairy milk distributor to manage the milk distribution.
 - Check Today Left Milk Capacity
 - Get All Orders
 
+## Usage
+
+- Create a Node.js project
+- Install required modules
+- Create `dev.env` file for development
+- Add following VARIABLES in `dev.env`
+  
+  ```env
+    PORT = YOUR PORT
+
+    MONGO_URI = YOUR MONGODB URI
+
+    DB_NAME = YOUR MONGODB DATABASE NAME
+  ```
+
 ## Documentation
 
-[Docs](https://rapidapi.com/nixlab-technologies-nixlab-technologies-default/api/social-media5)
+[Link](https://app.swaggerhub.com/apis/nixrajput-apis/dairy-milk-api/1.0.0)
 
 ## Connect With Me
 
