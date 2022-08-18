@@ -25,7 +25,7 @@ export const runApp = () => {
   app.use(express.json({ limit: "50mb" }));
 
   app.route("/").get((req, res) => {
-    res.sendFile(process.cwd() + "/index.html");
+    res.sendFile(process.cwd() + "/src/docs/index.html");
   });
 
   //   CREATE ORDER
